@@ -24,14 +24,18 @@
         .nav li:last-child{
             margin-right: 0;
         }
-        .nav a{
+        .nav li a{
             text-transform: uppercase;
             font: 14px Arial, sans-serif;
             color: #fff;
+            display: block;
         }
-        .nav a:hover{
+        .nav li a:hover{
             color: #f1c736;
         }
+#touch-menu {
+    display: none;
+}
         #home{
             height: 700px;
             background: #222 url(../img/homebg.jpg) no-repeat center bottom;
@@ -413,7 +417,7 @@ h5.title{
 
 @media(min-width:0px) and (max-width: 480px){
     .container {
-        width: 300px;
+        width: 280px;
     }
     .team-item {
         float: none;
@@ -430,6 +434,21 @@ h5.title{
         text-transform: uppercase;
         font: 55px/55px Arial, sans-serif;
     }
+    .about-text{
+        float: none;
+        width: 100%;
+        text-align: justify;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about-text h5{
+        text-align: center;
+    }
+    
+    .about-img {
+        float: none;
+        width: 100%;
+    }
     .portfolio-item {
         float:none;
         width: 100%;
@@ -443,6 +462,16 @@ h5.title{
     #copyright .social{
         margin-top: 50px;
         margin-left: 25%;
+    }
+    /*menu*/
+    .nav li{
+        
+    }
+    /* end of menu */
+    #brand img{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        text-align: center;
     }
 }
 @media(min-width:481px) and (max-width: 580px){
@@ -463,6 +492,21 @@ h5.title{
         text-transform: uppercase;
         font: 65px/65px Arial, sans-serif;
     }
+    .about-text{
+        float: none;
+        width: 100%;
+        text-align: justify;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about-text h5{
+        text-align: center;
+    }
+    
+    .about-img {
+        float: none;
+        width: 100%;
+    }
     .portfolio-item {
         float:none;
         width: 100%;
@@ -472,6 +516,11 @@ h5.title{
     #copyright .social{
         margin-top: 50px;
         margin-left: 28%;
+    }
+    #brand img{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        text-align: center;
     }
 }
 @media(min-width:581px) and (max-width: 680px){
@@ -505,6 +554,14 @@ h5.title{
     /*.about-text:nth-child(6) {
         display: none;
     }*/
+    /*menu*/
+    
+    
+    #brand img{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        text-align: center;
+    }
 }
 @media(min-width:681px) and (max-width: 780px){
     .container {
@@ -521,6 +578,11 @@ h5.title{
     .about-text.right{
         padding-left: 10px;
     }
+    #brand img{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        text-align: center;
+    }
 }
 @media(min-width:781px) and (max-width: 880px){
     .container {
@@ -533,5 +595,10 @@ h5.title{
     }
     .team-item img{
         max-width: 100%;
+    }
+    #brand img{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        text-align: center;
     }
 }
