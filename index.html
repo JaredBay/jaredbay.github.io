@@ -7,24 +7,7 @@
     <meta name="description" content="Тут уютно :3">
 	<title>The Golden</title>
 	<link rel="icon" href="favicon.ico">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			var touch = $('#touch-menu');
-		    var menu = $('.nav');
-		 
-		    $(touch).on('click', function(e) {
-		        e.preventDefault();
-		        menu.slideToggle();
-		    });
-		    $(window).resize(function(){
-		        var wid = $(window).width();
-		        if(wid > 760 && menu.is(':hidden')) {
-		            menu.removeAttr('style');
-		        }
-		    });
-		});
-    </script>
+    <link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="css/delete.css"/>
 </head>
 <body>
@@ -356,7 +339,7 @@
     
 </div>
 
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="js/scroll.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script>
@@ -365,5 +348,4 @@
 
 </body>
 </html>
-<link rel="stylesheet" href="css/style.css"/>
 <link rel="stylesheet" href="css/animate.css"/>
