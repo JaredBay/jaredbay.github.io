@@ -37,6 +37,7 @@
         #home{
             height: 700px;
             background: #222 url(../img/homebg.jpg) no-repeat center bottom;
+            background-attachment: fixed;
             padding-top: 270px;
             text-align: center;
             color: #fff;
